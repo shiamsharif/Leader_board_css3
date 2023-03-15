@@ -6,6 +6,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    user-select: none;
 }
 
 main {
@@ -27,6 +28,50 @@ hr {
     border: 1px solid #D1D1D1;
     /* margin-top: 21px; */
     margin-bottom: 27px;
+}
+
+/* header style */
+.top_headers {
+    background-color: #562EFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.top_headers .container {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header_left a {
+    display: flex;
+    align-items: center;
+}
+
+.header_left a i {
+    margin-right: 12px;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+
+    /* height: 100%; */
+}
+
+.header_right a {
+    margin-left: 20px;
+}
+
+
+.top_headers a {
+    text-decoration: none;
+    color: #F3F1FF;
+    font-weight: 700;
 }
 
 /* top players style */
