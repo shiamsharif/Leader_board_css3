@@ -32,12 +32,13 @@ hr {
 
 /* header style */
 .top_headers {
-    background-color: #562EFF;
+    background-image: linear-gradient(296deg, #ca3535, #4f3bb7);
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     padding: 20px 0;
 }
+
 
 .top_headers .container {
     background-color: transparent;
